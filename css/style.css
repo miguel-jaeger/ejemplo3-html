@@ -50,23 +50,25 @@
 }
 
 #acerca {
-    background-color: #f44545;
+    background-color: #f4454560;
     padding: 20px;
     text-align: center;
+    border-radius: 5px;
 }
 
 #contacto {
     background-color: #b2eabe;
     padding: 20px;
     text-align: center;
+    border-radius: 5px;
 }
 
 #servicios {
     background-color: #b9adef;
     padding: 20px;
     text-align: center;
+    border-radius: 5px;
 }
-
 
 
 #container {
@@ -135,6 +137,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     justify-items: center;
+    background-color: #f5f39c;
+    border-radius: 5px;
     
 }
 
@@ -224,7 +228,7 @@
 }
 
 
-.card{
+.card-servicio{
     background-color: #9dd3af;
     border:1px solid #4CAF50;
     border-radius: 5px;
