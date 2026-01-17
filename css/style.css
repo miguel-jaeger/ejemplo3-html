@@ -211,3 +211,22 @@
     }
 
 }
+
+#servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#servicios h2{
+    grid-column: span 3;
+    text-align: center;
+}
+
+
+.card{
+    background-color: #9dd3af;
+    border:1px solid #4CAF50;
+    border-radius: 5px;
+    padding: 10px;
+}
